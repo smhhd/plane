@@ -31,6 +31,7 @@ import { AppProvider } from "./provider";
 // fonts
 import "@fontsource-variable/inter";
 import interVariableWoff2 from "@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url";
+import vazirmatnArabicWoff2 from "@fontsource-variable/vazirmatn/files/vazirmatn-arabic-wght-normal.woff2?url";
 import "@fontsource/material-symbols-rounded";
 import "@fontsource/ibm-plex-mono";
 
@@ -53,11 +54,12 @@ export const links: LinksFunction = () => [
     type: "font/woff2",
     crossOrigin: "anonymous",
   },
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
-  { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
   {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap",
+    rel: "preload",
+    href: vazirmatnArabicWoff2,
+    as: "font",
+    type: "font/woff2",
+    crossOrigin: "anonymous",
   },
 ];
 
