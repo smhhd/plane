@@ -23,6 +23,7 @@ export default {
     favorites: "Oblíbené",
     pro: "Pro",
     upgrade: "Upgrade",
+    stickies: "Poznámky",
   },
   auth: {
     common: {
@@ -394,7 +395,6 @@ export default {
   time_tracking_description: "Zaznamenávejte čas strávený na pracovních položkách a projektech.",
   work_management_description: "Spravujte svou práci a projekty snadno.",
   documentation: "Dokumentace",
-  message_support: "Kontaktovat podporu",
   contact_sales: "Kontaktovat prodej",
   hyper_mode: "Hyper režim",
   keyboard_shortcuts: "Klávesové zkratky",
@@ -407,7 +407,7 @@ export default {
   docs: "Dokumentace",
   full_changelog: "Úplný změnový protokol",
   support: "Podpora",
-  discord: "Discord",
+  forum: "Forum",
   powered_by_plane_pages: "Poháněno Plane Pages",
   please_select_at_least_one_invitation: "Vyberte alespoň jednu pozvánku.",
   please_select_at_least_one_invitation_description:

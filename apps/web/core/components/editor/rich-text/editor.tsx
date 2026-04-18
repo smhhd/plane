@@ -102,7 +102,7 @@ export const RichTextEditor = forwardRef(function RichTextEditor(
         },
       }}
       {...rest}
-      containerClassName={cn("relative ps-3 pb-3", containerClassName)}
+      containerClassName={cn("relative pb-3 pl-3", containerClassName)}
     />
   );
 });

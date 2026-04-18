@@ -23,6 +23,7 @@ export default {
     favorites: "お気に入り",
     pro: "プロ",
     upgrade: "アップグレード",
+    stickies: "付箋",
   },
   auth: {
     common: {
@@ -394,7 +395,6 @@ export default {
   time_tracking_description: "作業項目やプロジェクトに費やした時間を記録します。",
   work_management_description: "作業とプロジェクトを簡単に管理します。",
   documentation: "ドキュメント",
-  message_support: "サポートにメッセージ",
   contact_sales: "営業に問い合わせ",
   hyper_mode: "Hyper Mode",
   keyboard_shortcuts: "キーボードショートカット",
@@ -407,7 +407,7 @@ export default {
   docs: "ドキュメント",
   full_changelog: "完全な変更履歴",
   support: "サポート",
-  discord: "Discord",
+  forum: "Forum",
   powered_by_plane_pages: "Powered by Plane Pages",
   please_select_at_least_one_invitation: "少なくとも1つの招待を選択してください。",
   please_select_at_least_one_invitation_description:
