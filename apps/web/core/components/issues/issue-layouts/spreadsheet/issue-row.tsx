@@ -362,7 +362,7 @@ const IssueRowDetails = observer(function IssueRowDetails(props: IssueRowDetails
                   <div className="w-full overflow-hidden">
                     <Tooltip tooltipContent={issueDetail.name} isMobile={isMobile}>
                       <div
-                        className="h-full w-full cursor-pointer truncate pr-4 text-left text-13 text-primary focus:outline-none"
+                        className="h-full w-full cursor-pointer truncate pr-4 text-start text-13 text-primary focus:outline-none"
                         tabIndex={-1}
                         dir="auto"
                       >

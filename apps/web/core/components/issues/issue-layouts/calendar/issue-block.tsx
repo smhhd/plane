@@ -117,7 +117,7 @@ export const CalendarIssueBlock = observer(
                     }
                   )}
                 >
-                  <div className="flex h-full items-center gap-1.5 truncate">
+                  <div className="flex h-full items-center gap-1.5 truncate w-full">
                     <span
                       className="h-full w-0.5 flex-shrink-0 rounded-sm"
                       style={{
@@ -133,7 +133,7 @@ export const CalendarIssueBlock = observer(
                         displayProperties={issuesFilter?.issueFilters?.displayProperties}
                       />
                     )}
-                    <div className="truncate text-13 font-medium md:text-11 md:font-regular" dir="auto">{issue.name}</div>
+                    <div className="truncate text-13 font-medium md:text-11 md:font-regular w-full" dir="auto">{issue.name}</div>
                   </div>
                   <div
                     className={cn("size-5 flex-shrink-0", {

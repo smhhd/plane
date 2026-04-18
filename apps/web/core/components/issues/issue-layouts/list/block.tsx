@@ -282,7 +282,7 @@ export const IssueBlock = observer(function IssueBlock(props: IssueBlockProps) {
               disabled={isCurrentBlockDragging}
               renderByDefault={false}
             >
-              <p className="cursor-pointer truncate text-body-xs-medium text-primary text-start" dir="auto">{issue.name}</p>
+              <p className="cursor-pointer truncate text-body-xs-medium text-primary text-start w-full" dir="auto">{issue.name}</p>
             </Tooltip>
             {isEpic && displayProperties && (
               <WithDisplayPropertiesHOC
