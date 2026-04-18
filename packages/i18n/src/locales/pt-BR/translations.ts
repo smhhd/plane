@@ -23,6 +23,7 @@ export default {
     favorites: "Favoritos",
     pro: "Pro",
     upgrade: "Upgrade",
+    stickies: "Anotações",
   },
   auth: {
     common: {
@@ -401,7 +402,6 @@ export default {
   time_tracking_description: "Registre o tempo gasto em itens de trabalho e projetos.",
   work_management_description: "Gerencie seu trabalho e projetos com facilidade.",
   documentation: "Documentação",
-  message_support: "Suporte por mensagem",
   contact_sales: "Contatar vendas",
   hyper_mode: "Modo Hyper",
   keyboard_shortcuts: "Atalhos do teclado",
@@ -414,7 +414,7 @@ export default {
   docs: "Documentos",
   full_changelog: "Changelog completo",
   support: "Suporte",
-  discord: "Discord",
+  forum: "Forum",
   powered_by_plane_pages: "Desenvolvido por Plane Pages",
   please_select_at_least_one_invitation: "Selecione pelo menos um convite.",
   please_select_at_least_one_invitation_description:

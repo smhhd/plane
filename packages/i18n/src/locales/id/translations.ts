@@ -23,6 +23,7 @@ export default {
     favorites: "Favorit",
     pro: "Pro",
     upgrade: "Upgrade",
+    stickies: "Catatan tempel",
   },
   auth: {
     common: {
@@ -397,7 +398,6 @@ export default {
   time_tracking_description: "Catat waktu yang dihabiskan untuk item kerja dan proyek.",
   work_management_description: "Kelola pekerjaan dan proyek Anda dengan mudah.",
   documentation: "Dokumentasi",
-  message_support: "Pesan dukungan",
   contact_sales: "Hubungi penjualan",
   hyper_mode: "Mode Hyper",
   keyboard_shortcuts: "Pintasan keyboard",
@@ -410,7 +410,7 @@ export default {
   docs: "Dokumen",
   full_changelog: "Changelog lengkap",
   support: "Dukungan",
-  discord: "Discord",
+  forum: "Forum",
   powered_by_plane_pages: "Ditenagai oleh Plane Pages",
   please_select_at_least_one_invitation: "Silakan pilih setidaknya satu undangan.",
   please_select_at_least_one_invitation_description:

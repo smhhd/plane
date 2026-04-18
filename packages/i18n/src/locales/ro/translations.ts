@@ -23,6 +23,7 @@ export default {
     favorites: "Favorite",
     pro: "Pro",
     upgrade: "Treci la versiunea superioară",
+    stickies: "Notițe",
   },
   auth: {
     common: {
@@ -398,7 +399,6 @@ export default {
   time_tracking_description: "Înregistrează timpul petrecut pe activități și proiecte.",
   work_management_description: "Gestionează-ți munca și proiectele cu ușurință.",
   documentation: "Documentație",
-  message_support: "Trimite mesaj la suport",
   contact_sales: "Contactează vânzările",
   hyper_mode: "Mod Hyper",
   keyboard_shortcuts: "Scurtături tastatură",
@@ -411,7 +411,7 @@ export default {
   docs: "Documentație",
   full_changelog: "Jurnal complet al modificărilor",
   support: "Suport",
-  discord: "Discord",
+  forum: "Forum",
   powered_by_plane_pages: "Oferit de Plane Documentație",
   please_select_at_least_one_invitation: "Te rugăm să selectezi cel puțin o invitație.",
   please_select_at_least_one_invitation_description:
