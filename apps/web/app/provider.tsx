@@ -5,6 +5,7 @@
  */
 
 import { lazy, Suspense, useEffect } from "react";
+import { observer } from "mobx-react";
 import { useTheme } from "next-themes";
 import { SWRConfig } from "swr";
 // Plane Imports
@@ -33,7 +34,7 @@ export interface IAppProvider {
   children: React.ReactNode;
 }
 
-const AppDirection = () => {
+const AppDirection = observer(() => {
   const { currentLocale } = useTranslation();
 
   useEffect(() => {
@@ -43,7 +44,7 @@ const AppDirection = () => {
   }, [currentLocale]);
 
   return null;
-};
+});
 
 export function AppProvider(props: IAppProvider) {
   const { children } = props;
