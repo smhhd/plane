@@ -15,7 +15,7 @@ import { Combobox } from "@headlessui/react";
 import { useTranslation } from "@plane/i18n";
 // ui
 import type { DateRange, Matcher } from "@plane/propel/calendar";
-import { Calendar } from "@plane/propel/calendar";
+import { LocaleCalendar as Calendar } from "@/components/core/locale-calendar";
 import { CloseIcon, DueDatePropertyIcon } from "@plane/propel/icons";
 import { ComboDropDown } from "@plane/ui";
 import { cn, renderFormattedDate } from "@plane/utils";

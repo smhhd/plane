@@ -8,7 +8,7 @@ import { useState } from "react";
 // ui
 import { useTranslation } from "@plane/i18n";
 import { Button } from "@plane/propel/button";
-import { Calendar } from "@plane/propel/calendar";
+import { LocaleCalendar as Calendar } from "@/components/core/locale-calendar";
 import { EModalPosition, EModalWidth, ModalCore } from "@plane/ui";
 
 export type InboxIssueSnoozeModalProps = {

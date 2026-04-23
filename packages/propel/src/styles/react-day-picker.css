@@ -132,7 +132,7 @@
     padding: inherit;
 
     top: 1.2em;
-    right: 1em;
+    inset-inline-end: 1em;
 
     display: flex;
     align-items: center;
@@ -283,7 +283,7 @@
   }
 
   .rdp-range_start::before {
-    left: 50%;
+    inset-inline-start: 50%;
   }
 
   .rdp-range_middle::before {
@@ -293,7 +293,7 @@
   }
 
   .rdp-range_end::before {
-    right: 50%;
+    inset-inline-end: 50%;
   }
 
   .rdp-range_start.rdp-range_end::before {

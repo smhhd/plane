@@ -84,7 +84,7 @@ export function ListItem(props: IListItemProps) {
             disabled={disableLink}
             data-prevent-progress={preventDefaultProgress}
           >
-            <div className={cn("flex items-center gap-4 truncate", leftElementClassName)}>
+            <div className={cn("flex items-center gap-4 truncate w-full", leftElementClassName)}>
               {prependTitleElement && <span className="flex flex-shrink-0 items-center">{prependTitleElement}</span>}
               <Tooltip tooltipContent={title} position="top" isMobile={isMobile}>
                 <span className="truncate text-13 flex-grow text-start block" dir="auto">

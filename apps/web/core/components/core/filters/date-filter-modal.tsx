@@ -6,7 +6,7 @@
 
 import { Controller, useForm } from "react-hook-form";
 import { Button } from "@plane/propel/button";
-import { Calendar } from "@plane/propel/calendar";
+import { LocaleCalendar as Calendar } from "@/components/core/locale-calendar";
 import { CloseIcon } from "@plane/propel/icons";
 import { EModalPosition, EModalWidth, ModalCore } from "@plane/ui";
 import { renderFormattedPayloadDate, renderFormattedDate, getDate } from "@plane/utils";

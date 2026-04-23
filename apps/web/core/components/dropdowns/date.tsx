@@ -12,7 +12,7 @@ import { CalendarDays } from "lucide-react";
 import { Combobox } from "@headlessui/react";
 // ui
 import type { Matcher } from "@plane/propel/calendar";
-import { Calendar } from "@plane/propel/calendar";
+import { LocaleCalendar as Calendar } from "@/components/core/locale-calendar";
 import { CloseIcon } from "@plane/propel/icons";
 import { ComboDropDown } from "@plane/ui";
 import { cn, renderFormattedDate, getDate } from "@plane/utils";
