@@ -264,7 +264,7 @@ const IssueRowDetails = observer(function IssueRowDetails(props: IssueRowDetails
         id={`issue-${issueId}`}
         ref={cellRef}
         tabIndex={0}
-        className="group/list-block relative left-0 z-10 max-w-lg bg-surface-1 md:sticky"
+        className="group/list-block relative start-0 z-10 max-w-lg bg-surface-1 md:sticky"
       >
         <ControlLink
           href={workItemLink}
@@ -319,7 +319,7 @@ const IssueRowDetails = observer(function IssueRowDetails(props: IssueRowDetails
                   }
                   disabled={issueDetail.project_id === projectId}
                 >
-                  <div className="absolute left-1 mr-1 grid w-3.5 flex-shrink-0 place-items-center">
+                  <div className="absolute start-1 mr-1 grid w-3.5 flex-shrink-0 place-items-center">
                     <MultipleSelectEntityAction
                       className={cn(
                         "pointer-events-none opacity-0 transition-opacity group-hover/list-block:pointer-events-auto group-hover/list-block:opacity-100",

@@ -270,7 +270,7 @@ export const ProfileSetup = observer(function ProfileSetup(props: Props) {
                   {!userAvatar || userAvatar === "" ? (
                     <div className="flex flex-col items-center justify-between">
                       <div className="relative h-14 w-14 overflow-hidden">
-                        <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-full bg-accent-primary text-24 font-medium text-on-color uppercase">
+                        <div className="absolute top-0 start-0 flex h-full w-full items-center justify-center rounded-full bg-accent-primary text-24 font-medium text-on-color uppercase">
                           {watch("first_name")[0] ?? "R"}
                         </div>
                       </div>
@@ -282,7 +282,7 @@ export const ProfileSetup = observer(function ProfileSetup(props: Props) {
                     <div className="relative mr-3 h-16 w-16 overflow-hidden">
                       <img
                         src={getFileURL(userAvatar ?? "")}
-                        className="absolute top-0 left-0 h-full w-full rounded-full object-cover"
+                        className="absolute top-0 start-0 h-full w-full rounded-full object-cover"
                         onClick={() => setIsImageUploadModalOpen(true)}
                         alt={user?.display_name}
                       />
@@ -396,12 +396,12 @@ export const ProfileSetup = observer(function ProfileSetup(props: Props) {
                           />
                           {showPassword.password ? (
                             <EyeOff
-                              className="absolute right-3 h-4 w-4 stroke-placeholder hover:cursor-pointer"
+                              className="absolute end-3 h-4 w-4 stroke-placeholder hover:cursor-pointer"
                               onClick={() => handleShowPassword("password")}
                             />
                           ) : (
                             <Eye
-                              className="absolute right-3 h-4 w-4 stroke-placeholder hover:cursor-pointer"
+                              className="absolute end-3 h-4 w-4 stroke-placeholder hover:cursor-pointer"
                               onClick={() => handleShowPassword("password")}
                             />
                           )}
@@ -437,12 +437,12 @@ export const ProfileSetup = observer(function ProfileSetup(props: Props) {
                           />
                           {showPassword.retypePassword ? (
                             <EyeOff
-                              className="absolute right-3 h-4 w-4 stroke-placeholder hover:cursor-pointer"
+                              className="absolute end-3 h-4 w-4 stroke-placeholder hover:cursor-pointer"
                               onClick={() => handleShowPassword("retypePassword")}
                             />
                           ) : (
                             <Eye
-                              className="absolute right-3 h-4 w-4 stroke-placeholder hover:cursor-pointer"
+                              className="absolute end-3 h-4 w-4 stroke-placeholder hover:cursor-pointer"
                               onClick={() => handleShowPassword("retypePassword")}
                             />
                           )}

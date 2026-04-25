@@ -240,7 +240,7 @@ const InviteMemberInput = observer(function InviteMemberInput(props: InviteMembe
         {fields.length > 1 && (
           <button
             type="button"
-            className="absolute right-0 hidden place-items-center self-center rounded-sm group-hover:grid"
+            className="absolute end-0 hidden place-items-center self-center rounded-sm group-hover:grid"
             onClick={() => remove(index)}
           >
             <XCircle className="h-5 w-5 pl-0.5 text-placeholder" />

@@ -114,7 +114,7 @@ export function AuthUniqueCodeForm(props: TAuthUniqueCodeForm) {
           {uniqueCodeFormData.email.length > 0 && (
             <button
               type="button"
-              className="absolute right-3 grid size-5 place-items-center"
+              className="absolute end-3 grid size-5 place-items-center"
               aria-label={t("aria_labels.auth_forms.clear_email")}
               onClick={handleEmailClear}
             >

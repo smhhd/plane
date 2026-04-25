@@ -96,7 +96,7 @@ export const HeaderGroupByCard = observer(function HeaderGroupByCard(props: IHea
     <>
       <div className="group/list-header flex w-full flex-shrink-0 items-center gap-2 py-1.5">
         {canSelectIssues && (
-          <div className="absolute left-1 flex w-3.5 flex-shrink-0 items-center">
+          <div className="absolute start-1 flex w-3.5 flex-shrink-0 items-center">
             <MultipleSelectGroupAction
               className={cn(
                 "pointer-events-none size-3.5 opacity-0 !outline-none group-hover/list-header:pointer-events-auto group-hover/list-header:opacity-100",

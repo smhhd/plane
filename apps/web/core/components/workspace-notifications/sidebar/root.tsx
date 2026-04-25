@@ -89,7 +89,7 @@ export const NotificationsSidebarRoot = observer(function NotificationsSidebarRo
                 )}
               </div>
               {currentNotificationTab === tab.value && (
-                <div className="absolute right-0 bottom-0 left-0 rounded-t-md border border-accent-strong" />
+                <div className="absolute end-0 bottom-0 start-0 rounded-t-md border border-accent-strong" />
               )}
             </div>
           ))}

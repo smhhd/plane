@@ -189,7 +189,7 @@ export const AuthPasswordForm = observer(function AuthPasswordForm(props: Props)
             {passwordFormData.email.length > 0 && (
               <button
                 type="button"
-                className="absolute right-3 size-5"
+                className="absolute end-3 size-5"
                 onClick={handleEmailClear}
                 aria-label={t("aria_labels.auth_forms.clear_email")}
               >
@@ -221,7 +221,7 @@ export const AuthPasswordForm = observer(function AuthPasswordForm(props: Props)
             <button
               type="button"
               onClick={() => handleShowPassword("password")}
-              className="absolute right-3 grid size-5 place-items-center"
+              className="absolute end-3 grid size-5 place-items-center"
               aria-label={t(
                 showPassword?.password ? "aria_labels.auth_forms.hide_password" : "aria_labels.auth_forms.show_password"
               )}
@@ -257,7 +257,7 @@ export const AuthPasswordForm = observer(function AuthPasswordForm(props: Props)
               />
               <button
                 type="button"
-                className="absolute right-3 grid size-5 place-items-center"
+                className="absolute end-3 grid size-5 place-items-center"
                 aria-label={t(
                   showPassword?.retypePassword
                     ? "aria_labels.auth_forms.hide_password"

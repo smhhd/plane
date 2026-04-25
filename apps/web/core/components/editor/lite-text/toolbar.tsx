@@ -176,7 +176,7 @@ export function IssueCommentToolbar(props: Props) {
           ))}
         </div>
         {showSubmitButton && (
-          <div className="sticky right-1">
+          <div className="sticky end-1">
             <Button
               type="submit"
               variant="primary"

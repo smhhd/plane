@@ -52,7 +52,7 @@ export const ExtendedSidebarWrapper = observer(function ExtendedSidebarWrapper(p
         className
       )}
       style={{
-        left: `${storedValue ?? SIDEBAR_WIDTH}px`,
+        insetInlineStart: `${storedValue ?? SIDEBAR_WIDTH}px`,
         width: `${EXTENDED_SIDEBAR_WIDTH}px`,
       }}
     >

@@ -49,7 +49,7 @@ export function IconRoot(props: IconRootProps) {
               onFocus={() => setIsInputFocused(true)}
               onBlur={() => setIsInputFocused(false)}
             >
-              <SearchIcon className="absolute bottom-3 left-2.5 h-3.5 w-3.5 text-placeholder" />
+              <SearchIcon className="absolute bottom-3 start-2.5 h-3.5 w-3.5 text-placeholder" />
 
               <input
                 placeholder="Search"

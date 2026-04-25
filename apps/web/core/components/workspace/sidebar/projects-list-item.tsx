@@ -311,7 +311,7 @@ export const SidebarProjectsListItem = observer(function SidebarProjectsListItem
                 <button
                   type="button"
                   className={cn(
-                    "absolute top-1/2 -left-3 hidden -translate-y-1/2 cursor-grab items-center justify-center rounded-sm text-placeholder group-hover/project-item:flex",
+                    "absolute top-1/2 -start-3 hidden -translate-y-1/2 cursor-grab items-center justify-center rounded-sm text-placeholder group-hover/project-item:flex",
                     {
                       "cursor-not-allowed opacity-60": project.sort_order === null,
                       "cursor-grabbing": isDragging,
@@ -478,7 +478,7 @@ export const SidebarProjectsListItem = observer(function SidebarProjectsListItem
             >
               {isProjectListOpen && (
                 <Disclosure.Panel as="div" className="relative mt-1 mb-1.5 flex flex-col gap-0.5 pl-6">
-                  <div className="absolute top-0 bottom-1 left-[15px] w-[1px] bg-layer-3" />
+                  <div className="absolute top-0 bottom-1 start-[15px] w-[1px] bg-layer-3" />
                   <ProjectNavigationRoot workspaceSlug={workspaceSlug.toString()} projectId={projectId.toString()} />
                 </Disclosure.Panel>
               )}

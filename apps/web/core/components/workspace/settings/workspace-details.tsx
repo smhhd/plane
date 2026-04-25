@@ -153,7 +153,7 @@ export const WorkspaceDetails = observer(function WorkspaceDetails() {
                 <div className="relative flex size-14">
                   <img
                     src={getFileURL(workspaceLogo)}
-                    className="absolute top-0 left-0 size-full rounded-md object-cover"
+                    className="absolute top-0 start-0 size-full rounded-md object-cover"
                     alt="Workspace Logo"
                   />
                 </div>

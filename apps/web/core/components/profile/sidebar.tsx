@@ -96,7 +96,7 @@ export const ProfileSidebar = observer(function ProfileSidebar(props: TProfileSi
         <>
           <div className="relative h-[110px]">
             {currentUser?.id === userId && (
-              <div className="absolute top-3.5 right-3.5">
+              <div className="absolute top-3.5 end-3.5">
                 <IconButton
                   variant="secondary"
                   icon={EditIcon}
@@ -115,7 +115,7 @@ export const ProfileSidebar = observer(function ProfileSidebar(props: TProfileSi
               className="h-[110px] w-full"
               showDefaultWhenEmpty
             />
-            <div className="absolute -bottom-[26px] left-5 h-[52px] w-[52px] rounded-sm">
+            <div className="absolute -bottom-[26px] start-5 h-[52px] w-[52px] rounded-sm">
               {userData?.avatar_url && userData?.avatar_url !== "" ? (
                 <img
                   src={getFileURL(userData?.avatar_url)}

@@ -99,7 +99,7 @@ export const NoProjectsEmptyState = observer(function NoProjectsEmptyState() {
             <span className="relative flex size-4 items-center justify-center rounded-full p-4 text-on-color capitalize">
               <img
                 src={getFileURL(currentUser?.avatar_url)}
-                className="absolute top-0 left-0 h-full w-full rounded-full object-cover"
+                className="absolute top-0 start-0 h-full w-full rounded-full object-cover"
                 alt={currentUser?.display_name || currentUser?.email}
               />
             </span>

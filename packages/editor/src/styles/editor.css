@@ -108,7 +108,7 @@ ul[data-type="taskList"] li {
 
 ul[data-type="taskList"] li > label {
   position: absolute;
-  left: -5px;
+  inset-inline-start: -5px;
   margin: 0.1rem 0.15rem 0 0;
   user-select: none;
 }

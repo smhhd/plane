@@ -30,7 +30,7 @@ export function LinkPreview({
 
   return (
     <div
-      className="animate-in fade-in absolute top-0 left-0 max-w-max translate-y-1"
+      className="animate-in fade-in absolute top-0 start-0 max-w-max translate-y-1"
       style={{
         transition: "all 0.2s cubic-bezier(.55, .085, .68, .53)",
       }}

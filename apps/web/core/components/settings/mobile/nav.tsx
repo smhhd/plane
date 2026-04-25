@@ -34,7 +34,7 @@ export const SettingsMobileNav = observer(function SettingsMobileNav(props: Prop
     <div className="flex items-center gap-4 border-b border-subtle px-page-x py-3 md:hidden">
       <div ref={sidebarRef} className="relative z-50 w-fit">
         {!sidebarCollapsed && (
-          <div className="absolute top-10.5 left-0 z-50">
+          <div className="absolute top-10.5 start-0 z-50">
             <HamburgerContent className="max-h-100 rounded-lg border border-subtle pb-3" />
           </div>
         )}

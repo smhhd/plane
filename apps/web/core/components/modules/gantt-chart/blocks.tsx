@@ -61,7 +61,7 @@ export const ModuleGanttBlock = observer(function ModuleGanttBlock(props: Props)
           )
         }
       >
-        <div className="absolute top-0 left-0 h-full w-full bg-surface-1/50" />
+        <div className="absolute top-0 start-0 h-full w-full bg-surface-1/50" />
         <div
           className="sticky w-auto truncate overflow-hidden px-2.5 py-1 text-13 text-primary"
           style={{ left: `${SIDEBAR_WIDTH}px` }}

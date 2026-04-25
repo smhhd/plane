@@ -222,7 +222,7 @@ export const IssueBlock = observer(function IssueBlock(props: IssueBlockProps) {
                   }
                   disabled={issue.project_id === projectId}
                 >
-                  <div className="absolute left-1 grid w-3.5 flex-shrink-0 place-items-center">
+                  <div className="absolute start-1 grid w-3.5 flex-shrink-0 place-items-center">
                     <MultipleSelectEntityAction
                       className={cn(
                         "pointer-events-none opacity-0 transition-opacity group-hover/list-block:pointer-events-auto group-hover/list-block:opacity-100",
@@ -271,7 +271,7 @@ export const IssueBlock = observer(function IssueBlock(props: IssueBlockProps) {
               </div>
 
               {issue?.tempId !== undefined && (
-                <div className="absolute top-0 left-0 z-[99999] h-full w-full animate-pulse bg-surface-1/20" />
+                <div className="absolute top-0 start-0 z-[99999] h-full w-full animate-pulse bg-surface-1/20" />
               )}
             </div>
 

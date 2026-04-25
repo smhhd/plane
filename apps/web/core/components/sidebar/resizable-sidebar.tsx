@@ -209,7 +209,7 @@ export function ResizableSidebar({
               "absolute z-[20] h-full w-1 cursor-ew-resize transition-all duration-200",
               !isResizing && "hover:bg-surface-2",
               isResizing && "w-1.5 bg-layer-1",
-              "top-0 right-0"
+              "top-0 end-0"
             )}
             // onDoubleClick toggle sidebar
             onDoubleClick={() => toggleCollapsed()}
@@ -222,7 +222,7 @@ export function ResizableSidebar({
       {/* Peek View */}
       <div
         className={cn(
-          "shadow-sm absolute left-0 z-20 h-full bg-surface-1",
+          "shadow-sm absolute start-0 z-20 h-full bg-surface-1",
           !isResizing && "transition-all duration-300 ease-in-out",
           isCollapsed && showPeek ? "translate-x-0 opacity-100" : "translate-x-[-100%] opacity-0",
           "pointer-events-none",
@@ -251,7 +251,7 @@ export function ResizableSidebar({
               "absolute z-[20] h-full w-1 cursor-ew-resize transition-all duration-200",
               !isResizing && "hover:bg-surface-2",
               isResizing && "bg-layer-1",
-              "top-0 right-0"
+              "top-0 end-0"
             )}
             // onDoubleClick toggle sidebar
             onDoubleClick={() => toggleCollapsed()}

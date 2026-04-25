@@ -108,7 +108,7 @@ export const InboxSidebar = observer(function InboxSidebar(props: IInboxSidebarP
               )}
               <div
                 className={cn(
-                  `absolute right-0 bottom-0 left-0 rounded-t-md border`,
+                  `absolute end-0 bottom-0 start-0 rounded-t-md border`,
                   currentTab === option?.key ? `border-accent-strong` : `border-transparent`
                 )}
               />

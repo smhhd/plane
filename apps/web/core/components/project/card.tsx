@@ -216,7 +216,7 @@ export const ProjectCard = observer(function ProjectCard(props: Props) {
           <CoverImage
             src={project.cover_image_url}
             alt={project.name}
-            className="absolute top-0 left-0 h-full w-full rounded-t"
+            className="absolute top-0 start-0 h-full w-full rounded-t"
           />
 
           <div className="absolute bottom-4 z-[1] flex h-10 w-full items-center justify-between gap-3 px-4">

@@ -20,13 +20,13 @@ export function InstanceNotReady() {
         {/* Background decorations */}
         <img
           src={GradientBgLogo}
-          className="pointer-events-none absolute -top-24 -left-32 h-56 w-96 opacity-15"
+          className="pointer-events-none absolute -top-24 -start-32 h-56 w-96 opacity-15"
           alt=""
           aria-hidden="true"
         />
         <img
           src={GradientBgLogo}
-          className="pointer-events-none absolute -right-20 -bottom-16 h-56 w-96 opacity-15"
+          className="pointer-events-none absolute -end-20 -bottom-16 h-56 w-96 opacity-15"
           alt=""
           aria-hidden="true"
         />
